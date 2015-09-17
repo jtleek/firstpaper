@@ -1,47 +1,34 @@
-Reviewing academic papers
+Writing your first academic paper
 -------------------------
 
-If you work in academia you will be asked to referee papers. Your first review will almost
-certainly be something you are asked to do by your advisor. But as your career goes on and
-you become recognized as an expert in one (or many!) areas, you will have the ahem...opportunity
-to review a lot more. 
-
-No one ever gave me formal guidelines for writing reviews. I think this experience is pretty similar to 
-most graduate students. The format, tone, and content of these documents is usually learned via an
-apprenticeship model (if at all). 
-
-This document serves to describe the way that you will write reviews while a member of the Leek group. 
-The goal is to avoid becoming that jerk reviewer, while simultaneously fulfilling your role to the academic community. It is a responsibility that must be
-taken seriously, but almost everyone wishes other people did better. 
+If you are working in academics (and you are if you are working with [Jeff](http://jtleek.com/) then you are at least for the moment) you will need to write some papers. This guide is designed to help you get started on writing your first paper since the process can seem a little weird at first. This guide is focused on writing your first "first author" paper and not on collaborative papers which involve more interactions with other groups. 
 
 
-
-The key players in peer review
+When to write your first academic paper?
 -------------------------
 
-There are a few different players in the peer review process. 
+As soon as possible! The purpose of graduate school is (in some order):
 
-The first is the __editor__ of the journal, 
-who will do some vetting of papers at the beginning - mostly to screen out really crazy stuff that
-gets submitted (you'd be amazed at what gets submitted). At most journals, the editor is a senior
-scientist with a broad knowledge of the field who has a pretty good intuition about what is likely
-to be interesting to the readership of the journal and what is likely real science. Papers that
-are uninteresting or obviously wrong usually won't get past the editor.
+* Freedom
+* Time to discover new knowledge
+* Time to dive deep
+* Opportunity for leadership
+* Opportunity to make a name for yourself
+  - R packages
+  - Papers
+  - Blogs
+* Get a job
 
-The editor usually assigns the paper to an __associate editor__ who has more expertise in the topics covered
-in the paper. The associate editor is usually a mid-level faculty member (senior assistant to associate professor).
-Again, papers that are obviously flawed or make wild claims often don't make it past the associate editor.
+The first couple of years of graduate school are typically focused on (1) teaching you all the technical skills you need and (2) data dumping as much hard-won practical experience from more experienced people into your head as fast as possible. 
 
-If a paper passes these hurdles it does not mean that it is correct or the claims are justified. It only
-means that on a quick read the paper seems interesting and not outlandish. The associate editor then makes
-an effort to find __referees__ who work in the specific area the paper focuses on but do not have strong
-conflicts or collaborations with the authors of the paper. As you can imagine, in some areas of science
-it is hard to find referees that aren't in conflict one way or the other and have time to review.
-So sometimes they have to find people whose expertise is close, but not perfectly aligned with the
-theme of the paper. 
+After that one of your main focuses should be on establishing your own program of research and reputation. Especially for Ph.D. students it can not be emphasized enough _no one will care about your grades in graduate school but everyone will care what you produced_. See for example, Sherri's excellent [guide on CV's for academic positions](http://drsherrirose.com/academic-cvs-for-statistical-science-faculty-positions). 
+
+Your advisor believes firmly that [R packages](http://simplystatistics.org/2013/01/23/statisticians-and-computer-scientists-if-there-is-no-code-there-is-no-paper/) and blog posts are just as important as papers, but the primary signal to most traditional academic communities still remains published peer-reviewed papers. So you should get started on writing them as soon as you can (definitely before you feel comfortable enough to try to write one). 
+
+Even if you aren't going to be in academics, papers are a great way to show off that you can (a) identify a useful project, (b) finish a project, and (c) write well. So the first thing you should be asking when you start a project is "what paper are we working on?" 
 
 
-What is your job in peer review?
+What is an academic paper?
 -------------------------
 
 A scientific paper can be distilled into four parts: 
@@ -51,177 +38,129 @@ A scientific paper can be distilled into four parts:
 3. A set of results
 4. A set of claims 
 
-When you (or anyone else) writes a paper the goal is to communicate clearly items 1-3 so that they
-can justify the set of claims they are making. In the current peer review system there are
-three tasks you are responsible for as a peer reviewer:
-
-1. Evaluating the quality and accuracy of the methods, data, and results.
-2. Determining whether the methods, data and results justify the claims.
-3. Determining how important the claims are and whether they belong in the journal the paper was submitted to.
-
-Ideally you would be able to verify every single claim in the paper and test every result. Given the time 
-constraints of the review process and the remuneration you get for reviewing, this is absolutely not 
-feasible. Your goal is instead to do your best to obtain reasonable estimators of each of the three
-components of the review and "show your work" by providing references, pointing to figures, and putting
-results in context.  
-
-Your prior belief about 1-3 should start with the assumption that the scientists in question are reasonable
-people who made efforts to be correct, thorough, transparent, and not exaggerate. You may adjust your prior if the paper
-was submitted to a journal that you and your colleagues have never heard of, or if you are asked to review
-a paper far outside of your expertise (legit journals try not to do this), or if the claims are so extreme
-that they would overturn huge areas of science (e.g. a paper claiming to prove evolution isn't true or that
-vaccines cause autism), or if the journal has the intent of only publishing papers that are groundbreaking.
+When you (or anyone else) writes a paper the goal is to communicate clearly items 1-3 so that they can justify the set of claims you are making. Before you can even write down 4 you have to do 1-3. So that is where you start when writing a paper. 
 
 
-Structure of a review
-----------------------
+How do you start a paper? 
+-------------------------
 
-Your review will have three parts. The comments to the authors, the comments to the editor, and a recommendation.
+The first thing you do is you decide on a problem to work on with your [advisor](http://jtleek.com/). This can be a problem that your advisor thought of or it can be a problem you are interested in, or a combination of both. Ideally your first project will have the following characteristics:
 
+1. Concrete
+2. Solves a scientific problem
+3. Gives you an opportunity to learn something new
+4. Something you feel ownership of
+5. Something you want to work on
 
-### Comments to the authors
+Points 4 and 5 can't be emphasized enough. I'll try to help you come up with a problem, but if you don't feel like it is _your_ problem it will make writing the first paper a total slog. Hopefully we can find an option where you are just insanely curious to know the answer at the end, to the point where you _just have to figure it out_ and kind of don't care what the answer is. That doesn't always happen, but that makes the grind of writing papers go down a lot easier. 
 
+Once you have a problem the next step is to actually do the research. I'll leave this for another guide, but the basic idea is that you want to follow the usual [data analytic process](https://leanpub.com/datastyle/):
 
-When you write a review the first part consists of the comments to the authors; it should have the following components:
-
-* A summary of the paper (motivation, methods, results) written in your own words of about a paragraph. 
-* A list of major issues
-* A list of minor issues
-* A list of typos you find
-
-I think the summary is critical because if you can't distill the ideas down then you haven't really understood
-the paper. The summary should absolutely _not_ be a restatement of the abstract of the paper, you should
-find the parts you think are most relevant and include them in the summary. 
-
-The major issues should be a bulleted list. Depending on the quality of the paper this list may be longer
-or shorter. A major issue has to be one of the following: (1) a claim that is not supported by the data, 
-(2) a method or result that appears completely incorrect, (3) a critical missing piece of information,
-or (4) a paper that is not readable by a person trying their best to understand it. You should point
-to specific figures, paragraphs, or results for each major issue and be concrete about the problems. Vague
-criticisms are unacceptable. When possible, use references from previous literature to back up your claims.
-
-Not making all data and code available with a specific link and instructions, is a major issue. 
-
-Minor issues should also be a bulleted list. There are a much broader range of minor issues that you
-may encounter. Some examples include simulations that miss some cases, figures that are missing axis labels,
-or the paper has extraneous results that aren't relevant to the claims being made. 
-
-Typos are not minor issues or major issues. It is not your responsibility to find them. If you do,
-you should provide them as a bulleted list to the author in the format: "On page x, line z, change ... to
-...". 
-
-If there are a huge number of typos then that may be stated as a minor issue. If the paper is completely
-unreadable then that is a major issue. Completely unreadable means you could not follow the paper even
-after ignoring all typos. 
+1. Define the question
+2. Get/tidy the data
+3. Explore the data
+4. Build/borrow a model
+5. Perform the analysis
+6. Check/critique results
+7. Write things up
 
 
-Here are some things that your comments to the authors should not contain:
+The hardest part for the first paper is often knowing where to stop and start writing. 
 
-* A recommendation of whether to accept or reject the paper
-* Requests for citations to a bunch of your papers (this will matter more later in your career)
-* Requests for experiments/simulations that are unnecessary to justify the main points in the paper
-* Insulting criticism or sarcasm
+How do you know when to start writing?
+-------------------------
 
-Remember that this is a professional document. They are typically anonymous (you don't have to sign your name)
-but the associate editor and editor will see the review and your reputation will be affected by the quality
-of the work you perform. There is no reason to be rude, competitive, or snarky in a review. 
+Sometimes this is an easy question to answer. If you started with a very concrete question at the beginning then once you have done enough analysis to convince yourself that you have the answer to the question. If the answer to the question is interesting/surprising then it is time to stop and write. 
 
+If the answer isn't interesting/surprising but you started with a concrete question it is also time to stop and write. But things often get more tricky with this type of paper as most journals when reviewing papers filter for "interest" so sometimes a paper without a really "big" result will be harder to publish. __This is ok!!__ Even though it may take longer to publish the paper, it is important to publish even results that aren't surprising/novel. I would much rather that you come to an answer you are comfortable with and we go through a little pain trying to get it published than you keep pushing until you get an "interesting" result, which may or may not be justifiable. 
 
-### Comments to the editor
+If you started with a question that wasn't so concrete then it gets a little trickier. The basic idea here is that you have convinced yourself you have a result that is worth reporting. Usually this takes the form of between 1 and 5 figures that show a coherent story that you could explain to someone in your field. 
 
-If you think you have covered everything in your comments to the authors you may leave this field blank.
-If you do put any text in, it should be no more than one paragraph. It should not contain any criticism
-of methods/results that you did not put in your comments to the authors. It may include a statement
-of how interesting you think the paper is and how appropriate it is for the journal readership if it
-helps justify your decision. It should be very consistent with the comments for the authors; if you aren't
-comfortable saying it to the authors directly, you should consider carefully whether it should be said. 
+For the first paper you will get a lot of help from me in deciding when to stop. But in general one thing you should be working on in graduate school is your own internal timer that tells you, "ok we have done enough, time to write this up". I found this one of the hardest things to learn in graduate school, but if you are going to stay in academics it is a critical skill. There are rarely deadlines for paper writing (unless you are submitting to CS conferences) so it will eventually be up to you when to start writing. If you don't have a good clock, this can really slow down your ability to get things published and promoted in academics. 
+
+One good principle to keep in mind is "the perfect is the enemy of the very good" Another one is that a published paper in a respectable journal beats a paper you just never submit because you want to get it into the "best" journal. 
 
 
-### Recommendation
+How do you start writing?
+-------------------------
 
-You usually have these four options for the decision
-
-* Reject
-* Major revisions
-* Minor revisions
-* Accept
-
-Reject if you think that the methods, results, or claims are blatantly false. Reject if you think the
-paper has major flaws that could not be corrected. Reject if the paper is clearly not an improvement
-on the current state of the art. This third category is very hard to judge if you don't have a lot of
-experience in the field. If you are new to reviewing you should consult your advisor.
-
-You should decide major revisions if you think there are serious problems with the paper but that
-they can be corrected. If you ask for major revisions your default plan should be that if they can/do
-correct all of the major issues you pointed out, you would be prepared to accept the paper. Sometimes, in the course
-of performing the corrections, they will show that their method/results/claims are not actually true. Then
-you should reject. 
-
-_Do not ask for major revisions if you think the paper is uninteresting and you wouldn't accept it even if
-they did everything you said._ This is the #1 way to be a jerk reviewer.  
-
-You should ask for minor revisions if there are only minor issues with the paper that you are pretty
-sure the authors can correct and you would be prepared to accept if the authors address those issues. 
-
-_Do not ask for minor revisions if you think the paper is uninteresting and you wouldn't accept it even if
-they did everything you said._ This is the #1 way to be a jerk reviewer. 
-
-It is very atypical for a reviewer to accept a paper outright. However there will be times when you receive
-a paper that has only minor issues and those issues are only judgement calls on your part, as opposed
-to things that need to be fixed to justify the claims or to make methods/results/data clear. It is perfectly
-acceptable in this case to list the minor issues and to suggest acceptance. 
+1. Once you have a set of results and are ready to start writing up the paper the first thing is _not to write_. The first thing you should do is create a set of 1-4 publication-quality plots (see Chapter 10 [here](leanpub.com/datastyle/)). Show these to Jeff to get confirmation on them before proceeding.  
+2. Start a project on [Overleaf](https://www.overleaf.com/) and invite Jeff to join.  
+3. Write up a story around the four plots in the simplest language you feel you can get away with, while still reporting all of the technical details that you can. 
+4. Go back and add references in only after you have finished the whole first draft. 
+5. Add in additional technical detail in the supplementary material if you need it. 
+6. Write up a reproducible version of your code that returns exactly the same numbers/figures in your paper with no input parameters needed. 
 
 
-Length of a review
--------------------
+What are the sections in a paper?
+--------------------------
 
-The best reviews are bullet pointed, brief, and point out exactly the key issues and nothing more. It is
-_absolutely not_ your responsibility to rewrite the paper, change the message of the paper, or make the
-authors do something that wasn't in the scope of the original work. If you think the paper isn't appropriate
-for a journal in its current form, you should explain/justify why and choose reject. But you should not
-make the authors conform to your opinions. 
+Normally when you are writing your first paper it will be about a statistical method you have developed to analyze a particular set of data, although sometimes it may be an analysis paper. 
 
-There is a temptation to write really long reviews to show that you read a paper carefully and show off
-how expert you are. Do not succumb to this temptation. You get no bonus points for being nitpicky, verbose,
-or long. 
+Keep in mind that most people will read the title of your paper only, a small fraction of those people will read the abstract, a small fraction of those people will read the introduction, and a small fraction of those people will read your whole paper. So make sure you get to the point quickly!
 
-You get big bonus points for the following things:
-* Being concise - nothing extraneous
-* Being precise - stating the specific problems with the manuscript
-* Being constructive - stating how the referees could address the problems you have found
-* Being polite - this helps focus on real issues rather than pet peeves. 
+The sections of a methods paper are: 
 
-Very good reviews are often 1-2 pages long in bullet pointed format. 
+0. __Title__: Should be very short, no colons if possible, and state the main result. Example, "A new method for sequencing data that shows how to cure cancer". Here you want to make sure people will read the paper without overselling your results - this is a delicate balance. 
+1. __Abstract__: In (ideally) 4-5 sentences explain (a) what problem you are solving, (b) why people should care, (c) how you solved the problem, (d) what are the results and (e) a link to the [software you developed](https://github.com/jtleek/rpackages) implementing the method. 
+2. __Introduction__: A more lengthy (1-3 pages) explanation of the problem you are solving, why people should care, and how you are solving it. Here you also review what other people have done in the area. The most critical thing is never underestimate how little people know or care about what you are working on. It is your job to explain to them why they should. 
+3. __Methods__: This is the meat of a methods paper. You should state and explain your statistical model, what the parameters are, how you chose them, and any strengths or weakenesses of your proposed approach. 
+4. __Comparisons__: Compare your proposed approach to the state of the art methods. I believe in doing this with simulations (where you know the right answer) and data you haven't simulated (where you don't know the right answer). If you can base your simulation on data, even better. I also believe in [simulating both the easy case (where your method should be great) and harder cases where your method might be terrible](http://simplystatistics.org/2013/03/06/the-importance-of-simulating-the-extremes/).
+5. __An example analysis__:  It is good to have one compelling "use case" laid out from the beginning to the end. Ideally this is the problem that motivated you to create the method in the first place. 
+6. __Conclusions__: Summarize what you did and explain why what you did is important one more time. Provide a link to the software implementing your method and the code you used to perform the analysis. 
+7. __Supplementary Information__: Sometimes, if there are a lot of technical computational, experimental or statistical details, you can include a supplement that has all of the details so folks can follow along. As far as possible, try to include the detail in the main text but explained clearly. 
 
+The length of the paper will depend a lot on which journal you are targeting. In general the shorter/more concise the better. But unless you are shooting for a really glossy journal (ask Jeff before doing this first) you should try to include the details in the paper itself. This means most papers will be in the 4-15 page range, but with a huge variance. 
 
-Re-review
--------------------
-
-Unless the paper was outright rejected or accepted, the authors will have a chance to respond to your review. 
-If you have followed the guidelines above, it should make the re-review process more straightforward:
-
-* If you said minor revision and they addressed your minor issues - accept. 
-* If you said major revisions and they addressed all your major/minor issues - accept.
-* If you said major revisions and they didn't do what you asked - major revisions with the outstanding issues.
-* If you said major revisions and their revision showed their method was incorrect/uninteresting - reject.
+The main difference with an analysis paper is you present the analysis/results you are doing first and move all of the methods and comparisons to after (or to the supplement). 
 
 
-How long should it take you to review?
--------------------
+Working with Jeff
+-------------------------
 
-You should never take more than a month to review. If you accept a review, you should plan to complete it 
-within a month. Ideally you will do the review in less time than that (think 2 weeks). If you are unable
-to do the review in that time frame you should politely decline and offer some alternative reviewers. 
+When writing your first paper the usual way we will do it will be: 
 
-It is inevitable that you will miss some deadlines for reviews. It is an important component of an academic's
-professional life but it is not a priority above your own work. If you are going to miss a deadline, you
-should let the associate editor know and give them a time frame for when you will complete the review. 
+1. You write a draft of the paper
+2. Schedule a block of time to re-write the paper with Jeff (usually 2-3 hours). 3. Based on the re-write finish up the new draft
+4. Edit the paper
+5. Submit
 
-Remember that someone else put a huge amount of work into this paper and their career/livelihood depends
-on them getting papers published in a reasonable amount of time. If you think the paper should be rejected,
-do it quickly! If you think it should be accepted, do it quickly!
+The first draft should be as complete as you think you can make it. Ideally this is something you think you could submit. If you haven't written an academic paper before this is almost never ready to submit. You should not feel bad about this or let it slow you down. Your goal is to write a draft. 
+
+The purpose of the re-write with Jeff is 2-fold. First, we will get the draft in "publication ready" shape. Don't feel bad if this involves a massive re-write. My advisor completely (and I mean completely) reworked the text in my first couple of papers as I was learning. Which brings us to the second purpose of this joint writing session - to learn how a paper is written and what to be thinking about when writing.
+
+The joint writing session will almost never be enough time to tidy up all the details, it will usually focus on big points. So then you'll need to edit the paper to get all the details/references ready to go. 
+
+Finally, you'll submit the paper! This usually involves meeting with Jeff again to go through the manuscript submission process in case there are any files missing. Unfortunately, most manuscript submission systems are a bit clunky and this can take up to an hour to get everything entered/submitted. Almost always we will submit the paper simultaneously to a journal and to a pre-print server like [biorxiv](http://biorxiv.org/). 
+
+The process is actually just getting started
+---------------
+
+When you submit a paper you will feel this huge sense of accomplishment and relief. You should!! 
+
+But the process is actually only getting started. To get a paper published will also require:
+
+1. Finishing up and distributing software
+2. Receiving and responding to referee comments (the target of a future tutorial)
+3. Re-writing the paper until it gets accepted
+
+Once your paper is accepted you get to celebrate, hooray!!!! But you still aren't done. Most of the impact from a paper (especially in methods) comes from what happens after the paper is published. You will need to maintain the software, respond to questions, fix any typos in the paper (which will still happen), and continue to "support" the work you did. But you will have the satisfaction of an amazing paper making you want to do all that extra work...
 
 
+Developing a style
+-----------------
 
+Scientific papers are written in a particular style. The best way to learn how to read these papers is to go to some journals that regularly publish good papers like [Biostatistics](http://biostatistics.oxfordjournals.org/) or [Genome Biology](http://www.genomebiology.com/) and read a ton of papers. 
 
+Learn how to write papers in a very clear and simple style. Whenever you can write in plain English and make the approach you are using understandable and clear.  This can (sometimes) make it harder to get your papers into journals. But simple, clear language leads to much higher use/reading/citation/impact of your work. 
 
+I learned by mimicking the styles of other people. Examples of great writers are: [John Storey](http://www.genomine.org/),  [Nancy Reid](http://www.utstat.utoronto.ca/reid/), [Shirley Liu](http://liulab.dfci.harvard.edu/),[Brad Efron](http://statweb.stanford.edu/~ckirby/brad/), and [Robert May](https://scholar.google.com/citations?user=ScXat-4AAAAJ), but there are a lot of other people that you can learn from. As with any writing, the more you read, the better a writer you will be. 
+
+I also find the [Hemmingway App](http://www.hemingwayapp.com/) a good way to keep my writing simple. 
+
+A couple of other guides that may be useful
+------------------------
+
+1. Guide to [reviewing](https://github.com/jtleek/reviews)
+2. Guide to [writing software](https://github.com/jtleek/rpackages)
+3. Guide to [sharing data](https://github.com/jtleek/datasharing)
