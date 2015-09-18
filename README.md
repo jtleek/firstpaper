@@ -121,7 +121,8 @@ Working with Jeff
 When writing your first paper the usual way we will do it will be: 
 
 1. You write a draft of the paper
-2. Schedule a block of time to re-write the paper with Jeff (usually 2-3 hours). 3. Based on the re-write finish up the new draft
+2. Schedule a block of time to re-write the paper with Jeff (usually 2-3 hours).
+3. Based on the re-write finish up the new draft
 4. Edit the paper
 5. Submit
 
@@ -154,7 +155,7 @@ Scientific papers are written in a particular style. The best way to learn how t
 
 Learn how to write papers in a very clear and simple style. Whenever you can write in plain English and make the approach you are using understandable and clear.  This can (sometimes) make it harder to get your papers into journals. But simple, clear language leads to much higher use/reading/citation/impact of your work. 
 
-I learned by mimicking the styles of other people. Examples of great writers are: [John Storey](http://www.genomine.org/),  [Nancy Reid](http://www.utstat.utoronto.ca/reid/), [Shirley Liu](http://liulab.dfci.harvard.edu/),[Brad Efron](http://statweb.stanford.edu/~ckirby/brad/), and [Robert May](https://scholar.google.com/citations?user=ScXat-4AAAAJ), but there are a lot of other people that you can learn from. As with any writing, the more you read, the better a writer you will be. 
+I learned by mimicking the styles of other people. Examples of great writers are: [John Storey](http://www.genomine.org/),  [Nancy Reid](http://www.utstat.utoronto.ca/reid/), [Shirley Liu](http://liulab.dfci.harvard.edu/), [Brad Efron](http://statweb.stanford.edu/~ckirby/brad/), and [Robert May](https://scholar.google.com/citations?user=ScXat-4AAAAJ), but there are a lot of other people that you can learn from. As with any writing, the more you read, the better a writer you will be. 
 
 I also find the [Hemmingway App](http://www.hemingwayapp.com/) a good way to keep my writing simple. 
 
