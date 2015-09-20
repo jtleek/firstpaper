@@ -84,7 +84,7 @@ One good principle to keep in mind is "the perfect is the enemy of the very good
 How do you start writing?
 -------------------------
 
-1. Once you have a set of results and are ready to start writing up the paper the first thing is _not to write_. The first thing you should do is create a set of 1-4 publication-quality plots (see Chapter 10 [here](leanpub.com/datastyle/)). Show these to Jeff to get confirmation on them before proceeding.  
+1. Once you have a set of results and are ready to start writing up the paper the first thing is _not to write_. The first thing you should do is create a set of 1-4 publication-quality plots (see Chapter 10 [here](http://leanpub.com/datastyle)). Show these to Jeff to get confirmation on them before proceeding.  
 2. Start a project on [Overleaf](https://www.overleaf.com/) and invite Jeff to join.  
 3. Write up a story around the four plots in the simplest language you feel you can get away with, while still reporting all of the technical details that you can. 
 4. Go back and add references in only after you have finished the whole first draft. 
