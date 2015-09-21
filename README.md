@@ -165,3 +165,4 @@ A couple of other guides that may be useful
 1. Guide to [reviewing](https://github.com/jtleek/reviews)
 2. Guide to [writing software](https://github.com/jtleek/rpackages)
 3. Guide to [sharing data](https://github.com/jtleek/datasharing)
+4. A complementary guide to [writing a paper](https://github.com/openconnectome/ocp_template/blob/master/Draft/ocp_template.md)
