@@ -172,5 +172,6 @@ Guides from other people
 
 1. Guide from @jovo on [writing papers](https://github.com/openconnectome/ocp_template/blob/master/Draft/ocp_template.md)
 2. Guide from zarlab on [writing methods sections](http://zarlab.cs.ucla.edu/writing-tips-methods-overview/)
+3. Guide to how to give a [talk](http://www.howtogiveatalk.com/)
 
 
