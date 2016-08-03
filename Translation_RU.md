@@ -150,7 +150,7 @@
 
 Похожие руководства от других людей
 -----------------------------------
-  1. Руководство от @jovo по [написанию статей](https://github.com/openconnectome/ocp_template/blob/master/Draft/ocp_template.md)
+  1. Руководство от @jovo по [написанию статей](https://github.com/openconnectome/ocp_template/blob/master/Draft)
   2. Руководство от zarlab по [написанию методического раздела](http://zarlab.cs.ucla.edu/writing-tips-methods-overview/)
 
 Перевод на русский от @hydrogo
