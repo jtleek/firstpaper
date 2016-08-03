@@ -170,7 +170,7 @@ A couple of other guides that may be useful
 Guides from other people
 ------------------------
 
-1. Guide from @jovo on [writing papers](https://github.com/openconnectome/ocp_template/blob/master/Draft/ocp_template.md)
+1. Guide from @jovo on [writing papers](https://github.com/openconnectome/ocp_template/blob/master/Draft)
 2. Guide from zarlab on [writing methods sections](http://zarlab.cs.ucla.edu/writing-tips-methods-overview/)
 
 
